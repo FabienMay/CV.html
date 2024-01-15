@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px rgb(152, 152, 208);
+}
+
+header{
+    box-shadow: 5px 5px 5px;
+    background-color: #c5d4eb;
+    color: #001a5f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #006db2,
+    15px 0 30px blueviolet,
+    -15px 0 30px #006a89;
+}
+a {
+    text-decoration: none;
+    color: #001a5f;
+    font-family: "Oswald", sans-serif
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cv-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+div {
+    border-width: 2px;
+    border-style: groove;
+    border-color: #0d569d;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    font-family: "Oswald", sans-serif
+}
+
+div .right-side {
+    color: #001a5f;
+    list-style-image: url(../image/tick-clair.png);
+    line-height: 3;
+    
+}
+div .left-side {
+    background-color: #828fd4;
+    color: whitesmoke;
+    list-style-image: url(../image/tick-foncé.png);
+    line-height: 2;
+}
+.cv-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+footer {
+    color: #001a5f;
+    background-color: #c5d4eb;
+    line-height: 1.5;
+}
+
+.titre_liste {
+    list-style-image: url(../image/tiret-liste.png);
+}
+
+.element-liste { 
+    list-style-image: url(../image/tiret-liste2.png);
+}
